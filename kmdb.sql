@@ -274,6 +274,10 @@ INNER JOIN actors ON actors.id = actor_id;
 -- ***TODO!***
 -- The SQL statement for the represented actor(s) output goes here.
 
+SELECT name
+FROM actors
+WHERE agent_id IS NOT NULL;
+
 -- Example output:
 -- Represented by agent
 -- ====================
