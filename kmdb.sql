@@ -276,7 +276,7 @@ INNER JOIN actors ON actors.id = actor_id;
 
 SELECT name
 FROM actors
-WHERE agent_id IS NOT NULL;
+WHERE agent_id = 1;
 
 -- Example output:
 -- Represented by agent
